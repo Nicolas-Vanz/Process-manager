@@ -1,11 +1,11 @@
-# logs-LISHA
-Objetivos:
-- Monitor de desempenho do Linux
-- Lista dos Processos Atuais
-- Script que escreva monitor de quanto está sendo usado de CPU, Memória, Disco e quando esses níveis alcançarem um valor determinado, escrever o que estava rodando.
+usage: main.py [-h] [-v]
+
+optional arguments:
+  -h, --help     show this help message and exit
+  -v, --verbose  show the processes table
 
 
-colunas disponiveis para especificar em update_config["columns"]:
+available columns to specify in update_config["columns"] :
   name
   cpu_usage
   memory_usage
